@@ -1,0 +1,80 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body, #capa{
+	height: 100%;
+}
+.custom-bar-top{
+	background: #FF7F50;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.nav > li a{
+	color: #FFF;
+	border-bottom: 3px solid rgba(255, 127, 80, 0);
+	transition: .3s all;
+}
+.nav > li a:hover{
+	background: none;
+	border-color: #FFF;
+	box-sizing: border-box;
+	transition: .5s all;
+}
+#capa{
+	background: url("../img/background.jpeg") center / cover no-repeat;
+	/*background: red;*/
+	display: table;
+	width: 100%;
+	background-attachment: fixed;
+}
+.texto{
+	top: 100px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	display: table-cell;
+	vertical-align: middle;
+}
+.intro h1{
+	text-transform: uppercase;
+	margin: 0;
+}
+.intro h2{
+	margin: 10px 0px 30px 0px;
+}
+.descricao{
+	/*box-shadow: 1px 1px 2px rgba(0,0,0,.4);*/
+	height: auto;
+}
+.descricao h2{
+	text-align: center;
+}
+
+footer{
+	background: rgba(0,0,0,.03);
+	display: table;
+	width: 100%;
+	padding: 30px 0px 10px 0px;
+	text-align: center;
+}
+.menu-inferior{
+	float: right;
+}
+.menu-inferior li{
+	/*display: inline-block;*/
+}
+.btn-inscricao{
+	border: none;
+	background: #FF7F50;
+	padding: 10px;
+	border-radius: 5px;
+	color: #FFF;
+	font-weight: bold;
+}
+.copyright{
+	text-align: center;
+	margin: 20px 0px 10px 0px;
+	bottom: 0px;
+}
