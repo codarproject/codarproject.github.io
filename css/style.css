@@ -3,13 +3,21 @@
 	padding: 0;
 	margin: 0;
 }
+li{
+	list-style: none;
+}
 html, body, #capa{
 	height: 100%;
 }
 .custom-bar-top{
-	background: #FF7F50;
+	background: #FF7F50;/*#FF7F50;*/
 	text-transform: uppercase;
 	padding: 10px;
+	margin: 0;
+	transition: .3s all linear;
+}
+.custom-conteudo{
+	margin-top: 80px;
 }
 .nav > li a{
 	color: #FFF;
@@ -47,16 +55,24 @@ html, body, #capa{
 .descricao{
 	/*box-shadow: 1px 1px 2px rgba(0,0,0,.4);*/
 	height: auto;
+	text-align: center;
 }
 .descricao h2{
 	text-align: center;
+	margin: 0;
 }
-
+.custom-icon{
+	display: block;
+	color: #FF7F50;
+	font-size: 5em;
+	text-align: center;
+}
 footer{
 	background: rgba(0,0,0,.03);
 	display: table;
 	width: 100%;
 	padding: 30px 0px 10px 0px;
+	margin-top: 50px;
 	text-align: center;
 }
 .menu-inferior{
