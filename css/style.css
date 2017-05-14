@@ -94,3 +94,46 @@ footer{
 	margin: 20px 0px 10px 0px;
 	bottom: 0px;
 }
+/*Inscrições*/
+.frase{
+	background: #FF7F50;
+	color: #FFF;
+	font-size: 2.3em;
+	padding: 50px 0px 50px 0px;
+}
+.frase .autor{
+	display: block;
+	text-align: right;
+	font-size: .8em;
+	font-style: italic;
+}
+.card{
+	box-shadow: 1px 1px 1px 2px rgba(0,0,0,.2);
+	height: 400px;
+}
+figure{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+figcaption{
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+	background: #FF7F50;
+	font-size: 1.2em;
+}
+.legenda{
+	color: #FF7F50;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+.logo-content{
+	/*padding-top: 50px; */
+}
+.listas-ocultas ul{
+	display: none;
+}
