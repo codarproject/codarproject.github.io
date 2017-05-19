@@ -108,8 +108,41 @@ footer{
 	font-style: italic;
 }
 .card{
+	/*border-radius: 10px;*/
 	box-shadow: 1px 1px 1px 2px rgba(0,0,0,.2);
-	height: 400px;
+	height: 470px;
+	/*border: 2px solid #FF7F50;*/
+}
+.teacher{
+	border: 2px solid #d6d6d6 !important;
+}
+.teacher figcaption{
+	background: #000 !important ;
+}
+.teacher .legenda{
+	border-bottom: 2px solid #000;
+	color: #000;
+}
+.legenda{
+	border-bottom: 2px solid #FF7F50;
+	padding: 10px 0px 5px 0px;
+}
+.descricao{
+	display: block;
+	padding: 10px;
+	text-align: center;
+	font-style: italic;
+	/*background: #BCBCBC;*/
+}
+.skills{
+	padding: 10px;
+}
+.skills span{
+	background: #BCBCBC;
+	padding: 5px 10px 5px 10px;
+	border-radius: 10px;
+	color: #FFF;
+	font-weight: bold;
 }
 figure{
 	width: 100%;
@@ -136,4 +169,10 @@ figcaption{
 }
 .listas-ocultas ul{
 	display: none;
+}
+.space{
+	margin-top: 100px;
+}
+.row{
+	margin-top: 20px;
 }
