@@ -88,6 +88,8 @@ footer{
 	border-radius: 5px;
 	color: #FFF;
 	font-weight: bold;
+	width: 250px;
+	margin-bottom: 10px;
 }
 .copyright{
 	text-align: center;
@@ -113,15 +115,15 @@ footer{
 	height: 470px;
 	/*border: 2px solid #FF7F50;*/
 }
-.teacher{
-	border: 2px solid #d6d6d6 !important;
-}
+/*.teacher{
+	border: 2px solid #3CB371 !important;
+}*/
 .teacher figcaption{
-	background: #000 !important ;
+	background: #3CB371 !important ;
 }
 .teacher .legenda{
-	border-bottom: 2px solid #000;
-	color: #000;
+	border-bottom: 2px solid #3CB371;
+	color: #3CB371;
 }
 .legenda{
 	border-bottom: 2px solid #FF7F50;
@@ -175,4 +177,39 @@ figcaption{
 }
 .row{
 	margin-top: 20px;
+}
+
+.aluno-destaque{
+	margin-bottom: 5px;
+	background: #FF7F50;
+	width: 100%;
+}
+.aluno-destaque img{
+	width: 100%;
+}
+.aluno-destaque p{
+	color: #FFF;
+}
+.btn-destaque{
+	background: #3CB371;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	color: #FFF;
+	font-weight: bold;
+	width: 250px;
+	margin-bottom: 10px;
+}
+.legenda-destaque{
+	text-align: center;
+}
+.logo-contato{
+	width: 100%;
+}
+.mapa{
+	width: 100%;
+	height: 400px;
+}
+.navbar-brand{
+	color: #FFF;
 }

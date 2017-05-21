@@ -22,7 +22,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a href="index.html" class="navbar-brand">
-					<img src="">
+					Codar Project
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="menu-principal">
@@ -34,7 +34,7 @@
 						<a href="galeria.html">Galeria</a>
 					</li>
 					<li>
-						<a href="ementa.html">Ementa</a>
+						<a href="ementa.html">Conteúdo</a>
 					</li>
 					<li>
 						<a href="contato.html">Contato</a>
@@ -61,6 +61,11 @@
 
 	<div class="container">
 		<div class="row">
+			<div class="col-md-6">
+				<button type="button" data-toggle="modal" class="btn-destaque" data-target="#modal-aluno">
+					Alunos em destaques
+				</button>
+			</div>
 		</div>
 
 		<div class="row">
@@ -79,7 +84,7 @@
 			<div class="col-md-4">
 				<div class="card">
 					<figure>
-						<img src="img/alunos/adna-chistyanne.jpg" class="img-circle" width="250">
+						<img src="img/alunos/adna-christynne.jpg" class="img-circle" width="250">
 					</figure>
 					<figcaption>Adna Christynne</figcaption>
 					<span class="legenda">8º Ano A</span>
@@ -376,8 +381,8 @@
 					<figure>
 						<img src="img/alunos/alice-vitoria1.jpg" class="img-circle" width="250">
 					</figure>
-					<figcaption>Nome</figcaption>
-					<span class="legenda">Série</span>
+					<figcaption>Maria Eduarda</figcaption>
+					<span class="legenda">7º Ano B</span>
 					<span class="descricao">
 						"."
 					</span>
@@ -385,6 +390,71 @@
 			</div>		
 		</div><!-- Row -->				
 	</div><!-- Container -->
+
+	<!-- Modal aluno em destaque -->
+	<div class="modal fade" id="modal-aluno">
+		<div class="modal-dialog" tabindex="-1" role="dialog">
+			<div class="modal-content" role="document">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Alunos em destaque</h4>
+				</div>
+				<div class="modal-body">
+					<figure class="aluno-destaque">
+						<img src="img/alunos/davi-teixeira.jpg"/>
+						<figcaption>
+							Davi Teixeira
+						</figcaption>
+						<p>
+							Parabéns Davi, você se destacou na primeira semana do curso de iniciação à programação, interagindo nas aulas e obtendo um avanço perceptível, fazendo atividades e em seu comportamento, continue assim.
+						</p>
+					</figure>
+					<figure class="aluno-destaque">
+						<img src="img/alunos/adna-christynne.jpg"/>
+						<figcaption>
+							Adna Christynne
+						</figcaption>
+						<p>
+							Parabéns Adna, você também foi destaque na primeira semana do curso de iniciação à programação, comportando-se nas aulas e participando ativamente atividades.
+						</p>
+					</figure>
+					<figure class="aluno-destaque">
+						<img src="img/alunos/alice-vitoria.jpg"/>
+						<figcaption>
+							Alice Vitória
+						</figcaption>
+						<p>
+							Parabéns Alice, você também faz parte do grupo de alunos em destaque da primeira semana do curso de iniciação à programação, com seu comportamento exemplar e envolvimento nas atividades.
+						</p>
+					</figure>
+					<figure class="aluno-destaque">
+						<img src="img/alunos/kevyn-italo.jpg"/>
+						<figcaption>
+							Kevyn Ítalo
+						</figcaption>
+						<p>
+							Parabéns Kevyn, você também foi destaque nesta primeira semana do curso de iniciação à programação, interagindo nas aulas, envolvido nas atividades e com o comportamento de um aluno exemplar, continue assim.
+						</p>
+					</figure>
+					<figure class="aluno-destaque">
+						<img src="img/alunos/nayonara-colares.jpg"/>
+						<figcaption>
+							Nayonara Colares
+						</figcaption>
+						<p>
+							Parabéns Nayonara, você fecha o grupo de aluno em destaque desta semana do curso de iniciação à programação, pelo seu envolvimento nas aulas e atividades, e também pelo sua boa conduta.
+						</p>
+					</figure>
+				</div>
+				<div class="modal-footer">
+					<p class="legenda-destaque">
+						Aos alunos em destaque, sintam-se orgulhosos de vocês e continuem assim, parabéns! E aos demais, você poderá ser o próximo, so depende de você.
+					</p>
+					<button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<div class="modal fade" id="modal-info">
@@ -416,7 +486,7 @@
 					</button>
 				</div>
 			</div>
-			<div class="col-md-12 copyright">&copy; Codar Project - Desenvolvido por <a href="#">Adriano Almeida</a></div>
+			<div class="col-md-12 copyright">&copy; Codar Project - Desenvolvido por <a href="https://www.linkedin.com/in/lord-adriano-almeida/">Adriano Almeida</a></div>
 		</div>
 	</footer>
 </body>
