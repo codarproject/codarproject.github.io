@@ -112,7 +112,7 @@ footer{
 .card{
 	/*border-radius: 10px;*/
 	box-shadow: 1px 1px 1px 2px rgba(0,0,0,.2);
-	height: 470px;
+	height: 500px;
 	/*border: 2px solid #FF7F50;*/
 }
 /*.teacher{
@@ -212,4 +212,11 @@ figcaption{
 }
 .navbar-brand{
 	color: #FFF;
+}
+.badge{
+	padding: 5px;
+	background: #3CB371;
+	color: #FFF;
+	margin-left: 10px;
+	font-size: .8em;
 }
