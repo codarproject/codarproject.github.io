@@ -3,6 +3,10 @@
 	padding: 0;
 	margin: 0;
 }
+.custom-slide{
+	/*width: 80%;*/
+	margin: 0 auto;
+}
 li{
 	list-style: none;
 }
@@ -17,7 +21,11 @@ html, body, #capa{
 	transition: .3s all linear;
 }
 .custom-conteudo{
-	margin-top: 80px;
+	margin-top: 0px;
+}
+.legenda-carousel{
+	background: rgba(0,0,0,.4);
+	padding: 0 0 20px 0;
 }
 .nav > li a{
 	color: #FFF;
@@ -190,16 +198,6 @@ figcaption{
 .aluno-destaque p{
 	color: #FFF;
 }
-.btn-destaque{
-	background: #3CB371;
-	border: none;
-	padding: 10px;
-	border-radius: 5px;
-	color: #FFF;
-	font-weight: bold;
-	width: 250px;
-	margin-bottom: 10px;
-}
 .legenda-destaque{
 	text-align: center;
 }
@@ -213,10 +211,23 @@ figcaption{
 .navbar-brand{
 	color: #FFF;
 }
+.btn-destaque{
+	background: #3CB371;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	color: #FFF;
+	font-weight: bold;
+	width: 250px;
+	margin-bottom: 10px;
+}
 .badge{
-	padding: 5px;
+	border: 2px solid rgba(0,0,0,.2);
+	padding: 10px;
 	background: #3CB371;
 	color: #FFF;
 	margin-left: 10px;
-	font-size: .8em;
+	font-size: 1.2em;
+	border-radius: 100%;
+	/*text-shadow: 0px 0px 1px #000*/
 }
